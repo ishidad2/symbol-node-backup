@@ -16,7 +16,7 @@ git clone git@github.com:ishidad2/symbol-node-backup.git
 
 ## GoogleドライブのフォルダIDを取得
 
-事前にアップロードするフォルダをGoogleドライブに作成し、URLからフォルダIDを取得しておく。
+事前にアップロード先のフォルダをGoogleドライブに作成し、URLからフォルダIDを取得しておく。
 
 フォルダIDはGoogleドライブをブラウザで開き、フォルダを選択した際の最後の方に表示される値です。
 
@@ -55,7 +55,7 @@ sudo apt install -y python3-pip
 python3 g_drive_upload.py
 ```
 
-ブラウザでGoogle認証が開くと思うので、アップロードするフォルダを作成したGoogleアカウントを選択してします。
+ブラウザでGoogle認証が開くと思うので、アップロード先のフォルダを作成したGoogleアカウントを選択してします。
 
 今回はテストユーザーを追加して認証を行なっているので、追加したテストユーザーで認証を行ってください。途中、「このアプリはGoogleで認証されていません」と表示されると思いますが、続行でOKです。
 
